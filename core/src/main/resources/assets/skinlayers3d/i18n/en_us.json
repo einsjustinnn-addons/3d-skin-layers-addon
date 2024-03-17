@@ -1,7 +1,7 @@
 {
-  "example": {
+  "skinlayers3d": {
     "settings": {
-      "name": "ExampleAddon",
+      "name": "3D Skin Layers",
       "enabled": {
         "name": "Enabled"
       }
