@@ -27,12 +27,6 @@ public class SkinLayersEntryPoint implements Entrypoint {
     this.skinLayers3dFiles.registerArtifact(MinecraftVersions.V1_19_3, "mF64uUAf");
     this.skinLayers3dFiles.registerArtifact(MinecraftVersions.V1_19_2, "JLg8jqoe");
 
-    this.skinLayers3dFiles.registerArtifact(MinecraftVersions.V1_18_2, "9T0SIigW");
-
-    this.skinLayers3dFiles.registerArtifact(MinecraftVersions.V1_17_1, "tmCTQZax");
-
-    this.skinLayers3dFiles.registerArtifact(MinecraftVersions.V1_16_5, "PTmtmBvH");
-
     Laby.labyAPI().eventBus().registerListener(this);
   }
 
