@@ -19,7 +19,7 @@ labyMod {
         author = "tr7zw, EinsJustinnn"
         description = "Render the player skin layer in 3d!"
         minecraftVersion = "*"
-        version = System.getenv().getOrDefault("VERSION", "0.0.1")
+        version = System.getenv().getOrDefault("VERSION", "1.0.1")
 
         addonDependencies.add(AddonDependency("labyfabric", false))
     }
