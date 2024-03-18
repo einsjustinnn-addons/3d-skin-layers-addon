@@ -83,7 +83,7 @@ public class SkinLayersFiles {
 
           JsonObject object = GSON.fromJson(new String(bytes, StandardCharsets.UTF_8),
               JsonObject.class);
-          String modVersion = object.get("version").getAsString();
+          String modVersion = this.artifacts.get(version).minecrafVersion + "-" + object.get("version").getAsString();
           String id = object.get("id").getAsString();
           if (!id.equals("skinlayers3d")) {
             return true;
