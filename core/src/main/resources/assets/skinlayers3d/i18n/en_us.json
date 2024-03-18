@@ -1,10 +1,7 @@
 {
   "skinlayers3d": {
     "settings": {
-      "name": "3D Skin Layers",
-      "enabled": {
-        "name": "Enabled"
-      }
+      "name": "3D Skin Layers"
     }
   }
 }
